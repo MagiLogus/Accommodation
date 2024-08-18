@@ -1,0 +1,13 @@
+.contact-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, #009C3B 0%, #009538 100%);
+    display: flex;
+    z-index: 1;
+}
+
+.circle {
+    z-index: 1;
+    position: absolute;
+}

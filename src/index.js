@@ -8,11 +8,13 @@ import "./assets/fonts/fonts.css"
 
 //Screens
 import Home from "./pages/Home/"
+import Footer from './Layouts/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Home />
+    <Footer />
   </React.StrictMode>
 );
 

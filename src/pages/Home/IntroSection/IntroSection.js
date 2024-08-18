@@ -1,5 +1,5 @@
 import React from "react";
-import BrazilMap from "../../assets/images/mapa-brasil.png"
+import BrazilMap from "../../../assets/images/mapa-brasil.png"
 import "./style.css"
 
 const IntroSection = () => {
