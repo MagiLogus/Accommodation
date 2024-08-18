@@ -1,0 +1,37 @@
+.intro-section {
+    display: flex;
+    padding: 0px 72px 0px 72px;
+}
+
+.intro-section .intro-text {
+    max-width: 435px;
+    margin-top: 119.1px;
+    margin-bottom: 160px;
+    margin-right: 296px;
+}
+
+.intro-section .intro-text h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 28px;
+    color: #FAFAFA;
+}
+
+.intro-section .intro-text p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+.intro-section .intro-image {
+    margin-top: 37px;
+    margin-bottom: 33px;
+}
+
+.intro-section .intro-image img {
+    max-width: 379px;
+    height: auto;
+}

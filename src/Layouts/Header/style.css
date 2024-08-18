@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    width: auto;
+    align-items: center;
+    padding: 0px 72px 0px 72px;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+header .logo {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22.9px;
+    color: #FFFFFF;
+    margin-top: 29px;
+}
+
+header .menu-wrapper {
+    display: flex;
+}
+
+header .menu-wrapper nav {
+    display: flex;
+    gap: 30px;
+    margin-top: 31px;
+    margin-right: 25px;
+}
+
+header .menu-wrapper nav a {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header .menu-wrapper nav a:hover {
+    transform: scale(1.2);
+}
+
+header .menu-wrapper .cta-buttons {
+    display: flex;
+    width: 151px;
+    height: 35px;
+    margin-top: 22px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu-wrapper .cta-buttons:hover {
+    transform: scale(1.2);
+}
+
+header .menu-wrapper .cta-buttons a {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+}
