@@ -2,10 +2,11 @@ import React from "react";
 import Header from "../../Layouts/Header/Header";
 import AnimatedIntroSection from "../../Components/AnimatedIntroSection/AnimatedIntroSection";
 import IntroSection from "./IntroSection/IntroSection";
-import Contact from "./Contact/Contact";
 import AnimatedContact from "../../Components/AnimatedContact/AnimatedContact";
-import Promotion from "./Promotion/Promotion";
-
+import PromotionSection from "./PromotionSection/PromotionSection";
+import ContactSection from "./ContactSection/ContactSection";
+import SearchBar from "./SearchBar/SearchBar";
+import PlacesSection from "./PlacesSection/PlacesSection";
 
 const Home = () => {
 
@@ -15,13 +16,12 @@ const Home = () => {
                 <Header />
                 <IntroSection />
             </AnimatedIntroSection>
-            <Promotion/>
+            <SearchBar />
+            <PlacesSection />
+            <PromotionSection />
             <AnimatedContact>
-                <Contact />
+                <ContactSection />
             </AnimatedContact>
-
-
-
         </React.Fragment>
     );
 };

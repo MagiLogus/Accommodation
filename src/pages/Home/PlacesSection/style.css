@@ -1,0 +1,11 @@
+.places-section {
+    display: flex;
+    padding: 0px 72px 0px 72px;
+    background-color: aqua;
+}
+
+.places-section .places-container {
+    background-color: antiquewhite;
+    margin-top: 75px;
+    margin-bottom: 42px;
+}

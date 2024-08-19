@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-//Estilização Global
+//Global Stylization
 import "./index.css";
 import "./assets/fonts/fonts.css"
 

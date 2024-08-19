@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-const Contact = () => {
+const ContactSection = () => {
     return (
         <React.Fragment>
             <div className="contact-container">
@@ -13,4 +13,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default ContactSection;
