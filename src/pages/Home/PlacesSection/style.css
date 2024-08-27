@@ -1,11 +1,14 @@
-.places-section {
+.destination-section {
     display: flex;
     padding: 0px 72px 0px 72px;
-    background-color: aqua;
+    background-color: #FCFCFC;
 }
 
-.places-section .places-container {
-    background-color: antiquewhite;
+.destination-section .destination-container {
     margin-top: 75px;
     margin-bottom: 42px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
 }

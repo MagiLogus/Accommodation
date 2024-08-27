@@ -6,7 +6,7 @@ import AnimatedContact from "../../Components/AnimatedContact/AnimatedContact";
 import PromotionSection from "./PromotionSection/PromotionSection";
 import ContactSection from "./ContactSection/ContactSection";
 import SearchBar from "./SearchBar/SearchBar";
-import PlacesSection from "./PlacesSection/PlacesSection";
+import DestinationSection from "./PlacesSection/PlacesSection";
 
 const Home = () => {
 
@@ -17,7 +17,7 @@ const Home = () => {
                 <IntroSection />
             </AnimatedIntroSection>
             <SearchBar />
-            <PlacesSection />
+            <DestinationSection/>
             <PromotionSection />
             <AnimatedContact>
                 <ContactSection />
